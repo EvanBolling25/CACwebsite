@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    color:darkgray;
+}
+
+nav{
+    background-color: black;
+    
+}
+/* i used the code from the sustainablility webiste because i liked the way the nav menu looked*/
+    
+a{
+    color:white;
+}
+ul a:hover{
+    color:white;
+    background-color:black;
+}
+li{
+    list-style-type: none;
+    display:inline-block;
+}
+
+header ul{
+    width:90%;
+    max-width: 1200px;
+}
+ul a{
+    color:darkred;
+    display:inline-block;
+    padding:1rem;
+    font:bold;
+    text-decoration: none;
+}
+
+body{
+    background-color:darkred;
+    font-size: 20px; 
+}
