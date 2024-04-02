@@ -1,41 +1,68 @@
-*{
-    box-sizing: border-box;
-}
+
 h1{
-    color:darkgray;
+    color:#ff3950;
+    background-color: #282828;
+    float:left;
+    height: 73px;
+    
+}
+h2{
+    border: 3px black solid;
+    width:375px;
+
 }
 
 nav{
-    background-color: black;
+    background-color: #282828;
+    height: 100px;
     
 }
-/* i used the code from the sustainablility webiste because i liked the way the nav menu looked*/
+
+/* i used the code from the sustainablility webiste because i liked the way the nav menu looked, ended up switching it up and taking some parts out that i didnt like and 
+switched directions with the nav menu slightly*/
     
 a{
-    color:white;
+    color:#ff3950;
+}
+a:hover{
+    color:black;
+
 }
 ul a:hover{
     color:white;
     background-color:black;
 }
+
 li{
     list-style-type: none;
     display:inline-block;
+    float:left;
+    
 }
 
-header ul{
-    width:90%;
-    max-width: 1200px;
-}
 ul a{
-    color:darkred;
+    color:#ff3950;
     display:inline-block;
     padding:1rem;
     font:bold;
     text-decoration: none;
+
 }
 
 body{
-    background-color:darkred;
+    background-color: #c2c2c2;
     font-size: 20px; 
+    color:#ff3950;
+}
+/* allows the logo to be in line with the nav menu*/
+header img{
+    float:left;
+}
+
+/* changes the size of the photos on the memebers page to a universal size */
+.memberphoto{
+    width:100px;
+    height:120px;
+    border: 3px black solid;
+
 }
