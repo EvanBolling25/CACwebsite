@@ -4,6 +4,7 @@
 }
 h1{
     color:#ff3950;
+    text-shadow: 2px 2px black;
     background-color: #282828;
     float:left;
     height: 73px;
@@ -26,7 +27,7 @@ h3{
     background-color: #282828;
 }
 
-h4{
+h5{
     border: 3px black solid;
     width:fit-content;
     align-content: center;
@@ -81,6 +82,7 @@ body{
     background-color: #c2c2c2;
     font-size: 20px; 
     color:#ff3950;
+    
 }
 /* allows the logo to be in line with the nav menu*/
 header img{
@@ -89,8 +91,8 @@ header img{
 
 /* changes the size of the photos on the memebers page to a universal size */
 .memberphoto{
-    width:120px;
-    height:120px;
+    width:200px;
+    height:200px;
     border: 3px black solid;
     background-color:red;
 
